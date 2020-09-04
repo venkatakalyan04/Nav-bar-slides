@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import   './Navbar.css';
 import { SidebarData } from './SidebarData';
 
 function Navbar() {
@@ -27,10 +28,10 @@ function Navbar() {
             console.log('slidebarData')
          return(
              <li key={index} className={item.cName}>
-             <link   to={item.path}>
+             <Link   to={item.path}>
                {item.icon}
                <span>{item.title}</span>
-             </link>
+             </Link>
              </li>
           ) ;  
         } )}
