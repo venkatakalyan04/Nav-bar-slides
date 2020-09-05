@@ -43,7 +43,6 @@ export const SidebarData = [
     {
       title: 'LOGIN',
       path: '/login',
-      icon: <IoIcons.IoMdHelpCircle/>,
       cName: 'nav-text'
     },
   ];
