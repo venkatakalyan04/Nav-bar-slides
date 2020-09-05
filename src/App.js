@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Reports from './pages/Reports';
 import Products from './pages/Products';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
+import { Button } from 'reactstrap';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path='/reports' component={Reports} />
           <Route path='/products' component={Products} />
           <Route path='/login' component={Login}/>
+          <Route path='/signup' component={Signup}/>
         </Switch>
       </Router>
     </>
