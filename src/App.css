@@ -9,7 +9,8 @@
 
 .home,
 .reports,
-.products {
+.products
+.Login {
   display: flex;
   height: 90vh;
   align-items: center;
